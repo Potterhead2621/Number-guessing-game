@@ -1,13 +1,13 @@
 # Number-guessing-game
-#Project Goal
+# Project Goal
 Create a number guessing game (Bash script) that runs in the terminal and saves user information.
 
 Project made as part of the FreeCodeCamp Relational Databases Beta Certificate course
 
-#Process
+# Process
 Database was created in PostgreSQL to insert and store user information and game history.
 
-#Tables:
+# Tables:
 
 'Games' - stores game history, including the user_id, the number of guesses inputed before finishing game and the 'secret number'.
 'Players' - stores usernames (and corresponding user_id) so bash script will recognised new and returning users.
